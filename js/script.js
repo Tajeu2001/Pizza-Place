@@ -7,7 +7,7 @@ class orderPizza{
   this.totalPrice = totalPrice;
   }
 }
-/*
+
 var pizzaPrice
 var pizzaToppings
 var pizzaCrust
