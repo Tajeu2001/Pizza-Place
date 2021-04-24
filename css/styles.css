@@ -10,13 +10,13 @@
   font-size: 40px;
 }
 
-/*.header > h1 {
+.header > h1 {
   font-family: 'Tangerine', cursive;
   font-size: 130px;
   font-weight: bolder;
 }
 
-#heading {
+/*#heading {
   text-align: center;
   color:#F15A29;
   margin-top: 70px;
