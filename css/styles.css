@@ -52,7 +52,7 @@ label {
   margin-top:40px;
 }
 
-/*#deliver {
+#deliver {
   margin-top: 20px;
   background-color: greenyellow;
 }
@@ -64,7 +64,7 @@ label {
 #total {
   margin-top: 20px;
   background-color: #F15A29;
-}
+}/*
 
 .footer {
   background-color: #F15A29;
