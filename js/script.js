@@ -25,11 +25,11 @@ $(document).ready(function(){
     pizzaPrice =  (pizzaToppings + pizzaCrust + pizzaSize ) * pizzaNumber;
     alert("The total charge for your pizza is"  +  " " + "Ksh"+ pizzaPrice);
     
-   /*
+   
     
     var newOrder = new orderPizza(pizzaToppings,pizzaCrust.pizzaSize,pizzaNumber,pizzaPrice);
     alert(newOrder);
-
+    /*
     var totalCharge = (pizzaPrice) + 300 ;
     alert(totalCharge);
    
