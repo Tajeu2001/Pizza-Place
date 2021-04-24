@@ -1,4 +1,4 @@
-/*class orderPizza{
+class orderPizza{
   function(topping,crust,size,number,totalPrice) {
   this.topping = topping;
   this.size = size;
@@ -7,14 +7,14 @@
   this.totalPrice = totalPrice;
   }
 }
-
+/*
 var pizzaPrice
 var pizzaToppings
 var pizzaCrust
 var pizzaSize
 var pizzaNumber
 
-
+/*
 $(document).ready(function(){
   $("#order").click(function(){
     pizzaToppings = parseInt($("form input[name='topping']:checked").val());
