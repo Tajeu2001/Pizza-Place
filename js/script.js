@@ -14,10 +14,10 @@ var pizzaCrust
 var pizzaSize
 var pizzaNumber
 
-/*
+
 $(document).ready(function(){
   $("#order").click(function(){
-    pizzaToppings = parseInt($("form input[name='topping']:checked").val());
+   /* pizzaToppings = parseInt($("form input[name='topping']:checked").val());
     pizzaCrust = parseInt($("form input[name='crust']:checked").val());
     pizzaSize= parseInt($("form input[name='size']:checked").val());
     pizzaNumber = parseInt($("form input[name='number']").val());
