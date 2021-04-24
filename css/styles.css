@@ -1,11 +1,11 @@
-/*.header {
+.header {
   background-color: #F15A29;
   text-align: center;
   padding:70px;
   color: yellow;
 }
 
-.header > p {
+/*.header > p {
   font-family: 'Tangerine', cursive;
   font-size: 40px;
 }
