@@ -23,7 +23,7 @@
   font-family: 'Pacifico', cursive;
 }
 
-/*.col-md-3 {
+.col-md-3 {
   font-size: 15px;
 }
 
@@ -39,7 +39,7 @@
   display:list-item;
 }
 
-label {
+/*label {
   font-weight: bold;
   margin-top: 50px;
   color: #F15A29;
