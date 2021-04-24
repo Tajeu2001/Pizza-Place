@@ -29,7 +29,7 @@ $(document).ready(function(){
     
     var newOrder = new orderPizza(pizzaToppings,pizzaCrust.pizzaSize,pizzaNumber,pizzaPrice);
     alert(newOrder);
-    /*
+    
     var totalCharge = (pizzaPrice) + 300 ;
     alert(totalCharge);
    
@@ -42,4 +42,4 @@ $(document).ready(function(){
   
   });
 
-});*/
+});
