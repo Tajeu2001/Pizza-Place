@@ -17,7 +17,7 @@ var pizzaNumber
 
 $(document).ready(function(){
   $("#order").click(function(){
-   /* pizzaToppings = parseInt($("form input[name='topping']:checked").val());
+    pizzaToppings = parseInt($("form input[name='topping']:checked").val());
     pizzaCrust = parseInt($("form input[name='crust']:checked").val());
     pizzaSize= parseInt($("form input[name='size']:checked").val());
     pizzaNumber = parseInt($("form input[name='number']").val());
@@ -25,7 +25,7 @@ $(document).ready(function(){
     pizzaPrice =  (pizzaToppings + pizzaCrust + pizzaSize ) * pizzaNumber;
     alert("The total charge for your pizza is"  +  " " + "Ksh"+ pizzaPrice);
     
-   
+   /*
     
     var newOrder = new orderPizza(pizzaToppings,pizzaCrust.pizzaSize,pizzaNumber,pizzaPrice);
     alert(newOrder);
