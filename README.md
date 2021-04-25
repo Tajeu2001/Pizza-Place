@@ -18,7 +18,7 @@ The Pizza nation project is all about creating a website where anyone can order 
 *CSS
 *JavaScript
 ## Link to live site
-
+https://tajeu2001.github.io/Pizza-Place/
 
 ## Contact details
 Email: tajeusanta7@gmail.com
