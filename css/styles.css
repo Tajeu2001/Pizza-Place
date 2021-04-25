@@ -34,7 +34,7 @@ form{
   font-family: 'Original Surfer', cursive
 }
 
-/*.col-md-3 {
+.col-md-3 {
   font-size: 15px;
   width: auto;
   font-family: 'Original Surfer', cursive
@@ -78,7 +78,7 @@ label {
   background-color: greenyellow;
   width: 14%;
 }
-
+/*
 #not {
   background-color: greenyellow;
   width: 15%;
