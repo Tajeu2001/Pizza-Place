@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap" rel="stylesheet">
   <script src="/js/jquery-3.6.0.js"> </script>
   <script src="/js/script.js"> </script>
   <title>Pizza Place</title>
@@ -28,28 +29,28 @@
     <h1 id="heading">Make your orders here loves!</h1>
     <form>
     <div class="row">
-      <div class="col-md-4">
-        <label class="toppings">Choose toppings:</label>
-        <input type="radio" name="topping" value="300">Broccolini or broccoli (blanch first) and pancetta/speck/bacon.
-        <input type="radio" name="topping" value="200">Potato, sausage, pancetta/speck/bacon.
-        <input type="radio" name="topping" value="250">garlic butter prawns, capsicum, onion, chilli, rocket
-        <input type="radio" name="topping" value="350">Black olives, anchovies, capers.
-        <input type="radio" name="topping" value="330">ham,pineapple
-        <input type="radio" name="topping" value="200">Capers, anchovies, eggplant, capsicum
+      <div class="col-md-5">
+        <label class="toppings">Choose toppings:</label><br>
+        <input type="radio" name="topping" value="300">Broccolini or broccoli (blanch first) and pancetta/speck/bacon.<br>
+        <input type="radio" name="topping" value="200">Potato, sausage, pancetta/speck/bacon.<br>
+        <input type="radio" name="topping" value="250">garlic butter prawns, capsicum, onion, chilli, rocket<br>
+        <input type="radio" name="topping" value="350">Black olives, anchovies, capers.<br>
+        <input type="radio" name="topping" value="330">ham,pineapple<br>
+        <input type="radio" name="topping" value="200">Capers, anchovies, eggplant, capsicum<br>
       </div>
       <div class="col-md-3">
-        <label>Choose crust:</label>
-        <input type="radio" name="crust" value="500">Crispy  
-        <input type="radio" name="crust" value="550">Stuffed
-        <input type="radio" name="crust" value="400">Gluten-free
-        <input type="radio" name="crust" value="430">Brooklyn 
-        <input type="radio" name="crust" value="300">Thin crust
+        <label>Choose crust:</label><br>
+        <input type="radio" name="crust" value="500">Crispy<br>  
+        <input type="radio" name="crust" value="550">Stuffed<br>
+        <input type="radio" name="crust" value="400">Gluten-free<br>
+        <input type="radio" name="crust" value="430">Brooklyn<br> 
+        <input type="radio" name="crust" value="300">Thin crust<br>
       </div>
-      <div class="col-md-3">
+     <!-- <div class="col-md-2">
         <label>Choose pizza size:</label><br>
-        <input type="radio" name="size" value="200">Small
-        <input type="radio" name="size" value="300">Medium
-        <input type="radio" name="size" value="400">Large
+        <input type="radio" name="size" value="200">Small<br>
+        <input type="radio" name="size" value="300">Medium<br>
+        <input type="radio" name="size" value="400">Large<br>
       </div>
       <div class="col-md-2">
         <label>Choose number of pizza:</label><br>
@@ -59,9 +60,13 @@
     <button id="order">Order</button><br>
     <button id="deliver">Delivered</button>
     <button id="not">Not Delivered</button><br>
-    <button id="total">checkout</button>
+    <button id="checkout">checkout Total</button>
+    <p id="number"></p>
+    <p id="charge"></p>
+    <p id="total"></p>
   </form>
   </div>
+  
   <div class="images2">
     <img src="images/pizza7.jpeg">
     <img src="images/pizza9.jpeg">
@@ -78,4 +83,4 @@
     <img src="images/skype.png">
   </div>
 </body>
-</html>-->
+</html>
