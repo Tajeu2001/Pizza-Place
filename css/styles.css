@@ -23,20 +23,41 @@
   font-family: 'Pacifico', cursive;
 }
 
-.col-md-3 {
-  font-size: 15px;
+form{
+  box-shadow:0 0 15px 5px rgb(212, 210, 210);
+  padding: 50px;
+  margin-top: 20px;
 }
 
-.col-md-4 {
+/*.col-md-2 {
   font-size: 15px;
+  font-family: 'Original Surfer', cursive
+}
+
+.col-md-3 {
+  font-size: 15px;
+  width: auto;
+  font-family: 'Original Surfer', cursive
+}
+
+.col-md-5 {
+  font-size: 15px;
+  font-family: 'Original Surfer', cursive
+}
+
+.col-md-2 >input {
+  width: auto;
+  margin-top: 15px;
 }
 
 .col-md-3 >input {
-  display: block;
+  width: auto;
+  margin-top: 15px;
 }
 
-.col-md-4 >input {
-  display:list-item;
+.col-md-5 >input {
+  width: auto;
+  margin-top: 15px;
 }
 
 label {
@@ -48,22 +69,32 @@ label {
 
 #order {
   background-color: yellow;
-  width: 40%;
+  width: 30%;
   margin-top:40px;
 }
 
 #deliver {
   margin-top: 20px;
   background-color: greenyellow;
+  width: 14%;
 }
 
 #not {
   background-color: greenyellow;
+  width: 15%;
 }
 
-#total {
+#checkout {
   margin-top: 20px;
   background-color: #F15A29;
+  width: 30%;
+}
+
+#number {
+  margin-top: 20px;
+}
+#number ,#charge ,#total{
+  font-family: 'Original Surfer', cursive;
 }
 
 .footer {
